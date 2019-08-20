@@ -1,0 +1,6 @@
+<input [type]="type"
+       [required]="required"
+       [placeholder]="placeholder"
+       [value]="value"
+       (input)="onChanges($event.target)"
+       (blur)="onTouched()" />
